@@ -1,0 +1,64 @@
+1. What is the purpose on using if statements?
+
+-if statement is control flow
+-to put a condition
+-conditional statement
+-it works with boolean expression or the expression should hae boolean outcome
+-if statements can be implemented/used without else statement
+
+we also have else statements:
+-which gets executed when if statements is false
+-else statement cannot be without if
+
+2. Write a logic /code for thermostat?
+
+//it's set on automatic which turns on the heater or AC
+//depending on the current temp in your house
+//if it's above desired temp then turnOnAc()
+//else turnOnHeat() [if it's colder than desired temp]
+
+ex: int currentTemp =60;
+    int desiredTemp =72;
+
+    if(currentTemp<= desiredTemp){
+        System.out.println("Turn on the heater!");
+    }else {
+       System.out.println("Turn on the AC!");
+        }
+  ================ ============== ============== ==============
+3. Convert the above if else to ternary operator:
+
+Ex: int currentTemp =60;
+    int desiredTemp =72;
+
+        String heaterOrAc =currentTemp <=desiredTemp? "Turn on the heater!":"Turn on the AC!"
+
+4. Constant variables in java? what are they?
+
+-their values cannot be changed or reassigned;
+-final keyword is used when initializing it;
+-naming is all caps;  ex: final static String DOB
+
+5. Different types of typecasting
+2 types:
+ --implicit and explicit
+ -implicit [automatic] -->data type conversion happens automatically [ex: smaller data type to larger data type]
+--explicit [manually]--> has to be manually type casted form larger to smaller [ex:from double to int]
+
+6. Help me to create a class called "MyClass" and it's not in the default package so the package name is "my_package":
+
+package my_package;
+public class MyClass{
+
+    public static void main(String [] args){
+    System.out.println( "DevX");
+    }
+}
+7. Get an input from the user about their age, Name, last name, favorite quote?
+
+ex: Scanner scan = new Scanner(System.in);//created an object of Scanner class
+//that way we can have access to the methods by typing the objects name and import the methods
+//the methods such as: nextInt(), nextBoolean(), nextLine()etc.
+
+8.
+
